@@ -14,7 +14,7 @@ export async function getCurrentUser() {
       return null;
     }
 
-    const currenrUser = await db
+    const currentUser = await db
       .select({
         id: user.id,
         email: user.email,
@@ -27,7 +27,7 @@ export async function getCurrentUser() {
       .where(eq(user.id, session.user.id))
       .limit(1);
 
-    return currenrUser[0] ?? null;
+    return currentUser[0] ?? null;
   } catch (error) {
     console.error('Error fetching current user:', error);
     return null;

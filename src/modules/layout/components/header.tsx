@@ -11,8 +11,8 @@ type Props = {
 export default function Header({ user }: Props) {
   return (
     <header className="grid grid-cols-5 grid-rows-1 gap-2 overflow-hidden overflow-x-auto border p-2">
-      <div className="col-span-2 ml-4 flex items-center justify-between space-x-2 hover:cursor-pointer hover:opacity-80">
-        <Unplug size={28} className="text-cyan-500" />
+      <div className="col-span-2 ml-4 flex items-center justify-between space-x-2">
+        <Unplug size={28} className="text-cyan-500 hover:cursor-pointer" />
       </div>
 
       <div className="col-span-1 flex items-center justify-between space-x-2">
@@ -24,7 +24,7 @@ export default function Header({ user }: Props) {
         </div>
       </div>
 
-      <div className="col-span-2 flex items-center justify-end space-x-2 hover:cursor-pointer hover:opacity-80">
+      <div className="col-span-2 flex items-center justify-end space-x-2">
         <Workspace />
         <UserButton user={user} size="sm" />
       </div>

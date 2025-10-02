@@ -2,6 +2,7 @@ import { Unplug } from 'lucide-react';
 import { User } from '../types';
 import SearchBar from './search-bar';
 import UserButton from '@/modules/authentication/components/user-button';
+import Workspace from './workspace';
 
 type Props = {
   user: User;
@@ -24,6 +25,7 @@ export default function Header({ user }: Props) {
       </div>
 
       <div className="col-span-2 flex items-center justify-end space-x-2 hover:cursor-pointer hover:opacity-80">
+        <Workspace />
         <UserButton user={user} size="sm" />
       </div>
     </header>

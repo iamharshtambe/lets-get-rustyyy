@@ -112,7 +112,7 @@ export const Game: React.FC = () => {
           </button>
         </div>
         <div className="game-info">
-          <h3>Game History</h3>
+          <h3>The Game History</h3>
           <ol>{moves}</ol>
         </div>
       </div>

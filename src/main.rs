@@ -4,5 +4,7 @@ fn main() {
     println!("Hello, World!");
     println!();
 
-    lessons::numbers::numbers()
+    lessons::numbers::numbers();
+
+    lessons::booleans::booleans();
 }

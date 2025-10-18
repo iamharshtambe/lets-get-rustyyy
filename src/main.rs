@@ -7,4 +7,6 @@ fn main() {
     lessons::numbers::numbers();
 
     lessons::booleans::booleans();
+
+    lessons::strings::strings();
 }

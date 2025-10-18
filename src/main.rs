@@ -1,3 +1,8 @@
+mod lessons;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, World!");
+    println!();
+
+    lessons::numbers::numbers()
 }

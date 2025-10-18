@@ -8,4 +8,6 @@ pub fn numbers() {
     println!("X is {}", x);
     println!("Y is {}", y);
     println!("Z is {}", z);
+
+    println!();
 }

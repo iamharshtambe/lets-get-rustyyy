@@ -4,5 +4,4 @@
 
 # greet user by his name
 name = input("What is your name? ")
-print("Hello,")
-print(name)
+print("Hello,", name)

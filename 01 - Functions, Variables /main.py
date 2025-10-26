@@ -5,5 +5,4 @@ print("Hello, World!")
 name = input("What is your name? ")
 
 # say hello to the user
-print("Hello,")
-print(name)
+print("Hello,", name)

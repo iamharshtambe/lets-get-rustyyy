@@ -1,6 +1,4 @@
-x = input("Enter first number: ")
-y = input("Enter second number: ")
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
 
-z = int(x) + int(y)
-
-print(z)
+print(f"Addition of {x} + {y} = {x + y}")

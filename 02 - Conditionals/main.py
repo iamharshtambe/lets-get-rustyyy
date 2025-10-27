@@ -30,3 +30,9 @@ elif score >= 60:
     print("Grade D")
 else:
     print("Go and study! You have failed...")
+
+# even or odd
+if x % 2 == 0:
+    print(f"{x} is a even number")
+else:
+    print(f"{x} is a odd number")

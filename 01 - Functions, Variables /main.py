@@ -1,16 +1,10 @@
-# my first python program
-print("Hello, World!")
+def main():
+    name = input("What is your name? ").strip().title()
+    say_hello(name)
 
 
-def say_hello(name="User"):
-    print(f"Hello, {name}")
+def say_hello(to="User"):
+    print("Hello", to)
 
 
-# ask user for their name
-name = (
-    input("What is your name? ").strip().title()
-)  # remove whitespaces and capitalize first letter
-
-# say hello to the user
-say_hello(name)
-say_hello()
+main()

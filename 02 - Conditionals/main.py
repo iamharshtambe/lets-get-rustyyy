@@ -11,7 +11,7 @@ else:
 a = int(input("Enter A = "))
 b = int(input("Enter B = "))
 
-if a > b or a < b:
+if a != b:
     print("A and B are not equal")
 else:
     print("A and B are equal")

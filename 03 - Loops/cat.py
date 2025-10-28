@@ -6,5 +6,7 @@
 #     i += 1
 
 # for loop
-for i in range(3):
+for _ in range(3):
     print("Meow")
+
+# print("Hello\n" * 3, end="")

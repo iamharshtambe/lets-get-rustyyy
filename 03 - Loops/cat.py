@@ -1,9 +1,9 @@
 # while loop
-# i = 0
+i = 0
 
-# while i < 3:
-#     print("Meow")
-#     i += 1
+while i < 3:
+    print("Meow")
+    i += 1
 
 # for loop
 for _ in range(3):

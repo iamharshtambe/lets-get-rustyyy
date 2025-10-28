@@ -1,23 +1,18 @@
-# while loop
-i = 0
+def main():
+    say_meow(get_number())
 
-while i < 3:
-    print("Meow")
-    i += 1
 
-# for loop
-for _ in range(3):
-    print("Meow")
+def get_number():
+    while True:
+        n = int(input("Enter n = "))
+        if n > 0:
+            break
+    return n
 
-# print("Hello\n" * 3, end="")
 
-# printing Meow n times
-while True:
-    n = int(input("Enter n = "))
-    if n < 0:
-        continue
-    else:
-        break
+def say_meow(n):
+    for _ in range(n):
+        print("Meow")
 
-for i in range(n):
-    print("Meow")
+
+main()
